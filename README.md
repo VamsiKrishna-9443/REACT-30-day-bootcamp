@@ -70,79 +70,77 @@ react-30-day-bootcamp/
 This structure follows the recommended bootcamp repository organization.
 
 ---
-
 ## 📅 30-Day Roadmap
 
 ### 🟨 Week 1 — JavaScript Foundation
 
-| Day | Topic                    | Status |
-| --- | ------------------------ | ------ |
-| 01  | Modern JavaScript Basics | ⏳      |
-| 02  | Arrays & Objects         | ⏳      |
-| 03  | ES6 Features             | ⏳      |
-| 04  | Async JavaScript         | ⏳      |
-| 05  | Problem Solving I        | ⏳      |
-| 06  | Problem Solving II       | ⏳      |
-| 07  | Week 1 Assessment        | ⏳      |
-
----
-
-### ⚛️ Week 2 — React Fundamentals
-
-| Day | Topic                         | Status |
-| --- | ----------------------------- | ------ |
-| 08  | Introduction to React         | ⏳      |
-| 09  | Components & Props            | ⏳      |
-| 10  | useState                      | ⏳      |
-| 11  | Event Handling & Forms        | ⏳      |
-| 12  | Conditional Rendering & Lists | ⏳      |
-| 13  | useEffect                     | ⏳      |
-| 14  | Week 2 Project                | ⏳      |
-
----
-
-### 🚀 Week 3 — Advanced React
-
-| Day | Topic                    | Status |
-| --- | ------------------------ | ------ |
-| 15  | React Router             | ⏳      |
-| 16  | State Management         | ⏳      |
-| 17  | Context API              | ⏳      |
-| 18  | useReducer               | ⏳      |
-| 19  | Custom Hooks             | ⏳      |
-| 20  | Performance Optimization | ⏳      |
-| 21  | Week 3 Assessment        | ⏳      |
-
----
-
-### 🌎 Week 4 — Real World React
-
-| Day | Topic                     | Status |
-| --- | ------------------------- | ------ |
-| 22  | API Architecture          | ⏳      |
-| 23  | Authentication Concepts   | ⏳      |
-| 24  | Form Validation           | ⏳      |
-| 25  | Testing & Debugging       | ⏳      |
-| 26  | JavaScript Challenges     | ⏳      |
-| 27  | React Challenges          | ⏳      |
-| 28  | Final Project Planning    | ⏳      |
-| 29  | Final Project Development | ⏳      |
-| 30  | Final Assessment          | ⏳      |
+| Day | Topic                    | Status      |
+| --- | ------------------------ | ----------- |
+| 01  | Modern JavaScript Basics | ✅ Completed |
+| 02  | Arrays & Objects         | ⏳ Pending   |
+| 03  | ES6 Features             | ⏳ Pending   |
+| 04  | Async JavaScript         | ⏳ Pending   |
+| 05  | Problem Solving I        | ⏳ Pending   |
+| 06  | Problem Solving II       | ⏳ Pending   |
+| 07  | Week 1 Assessment        | ⏳ Pending   |
 
 ---
 
 ## 📊 Progress Tracker
 
 ```text
-████████████████████ 0%
+█░░░░░░░░░░░░░░░░░░ 3%
 ```
 
-* Days Completed: 0 / 30
-* Current Day: Day 1
-* Assessments Completed: 0 / 4
-* Final Project: Not Started
+* **Days Completed:** 1 / 30
+* **Current Day:** Day 2
+* **Assessments Completed:** 0 / 4
+* **Final Project:** Not Started
 
 ---
+
+## 📝 Latest Update
+
+### ✅ Day 01 Completed — Modern JavaScript Basics
+
+**Completed Exercises:**
+
+* ✔ Variable declarations (`let`, `const`, `var`)
+* ✔ Even or Odd Checker
+* ✔ Largest of Three Numbers
+* ✔ Reverse String Program
+* ✔ Factorial Calculator
+* ✔ Palindrome Checker
+* ✔ Created detailed `day-01/README.md`
+* ✔ Organized source files inside `day-01/src`
+* ✔ Added GitHub-ready project structure
+
+**Files Added:**
+
+```text
+day-01/
+├── README.md
+└── src/
+    ├── basic.js
+    ├── evenOdd.js
+    ├── largestOfThree.js
+    ├── reverseString.js
+    ├── factorial.js
+    └── palindrome.js
+```
+
+**Key Concepts Learned:**
+
+* JavaScript variables and scope
+* Functions and reusable code
+* Conditional statements
+* Loops and iteration
+* String manipulation methods
+* Basic problem-solving techniques
+* Running JavaScript programs using Node.js
+
+---
+
 
 ## 💻 Tech Stack
 
