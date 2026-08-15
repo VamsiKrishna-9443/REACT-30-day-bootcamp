@@ -16,17 +16,23 @@ console.log(mergedArray); // [1,2,3,4,5,6]
 
 
 // Nested destructuring
-const userDetails = {   
+const userDetails = {
     id: 1,
     name: "Vamsi",
-    city: "Bengaluru",
-    country: "India"
-    
-}
+    address: {
+        city: "Bengaluru",
+        country: "India"
+    }
+};
 
-const { name, address: { city, country } } = userDetails;
+const {
+    name,
+    address: { city, country }
+} = userDetails;
+
 console.log(name);
-console.log(address); // Bengaluru India
+console.log(city);
+console.log(country);
 
 // Default Parameters
 function greet(name = "Guest"){
@@ -40,3 +46,12 @@ function add(a, b) {
     return a + b;
 }
 const addArrow = (a,b) => a + b;
+
+
+
+let monthlySalary = [3000,4000,5000,6000,70000];
+let annualSalary  = monthlySalary.map(Salary => Salary * 12);
+console.log(annualSalary);     // [36000, 48000, 60000, 72000, 840000]
+console.log(monthlySalary);    // [3000, 4000, 5000, 6000, 70000]
+
+
