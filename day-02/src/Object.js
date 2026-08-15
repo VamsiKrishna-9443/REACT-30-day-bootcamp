@@ -10,6 +10,7 @@ console.log(student);
 console.log(student.id);
 console.log(student.name);
 
+console.log("Adding new properties to the object");
 student.age = 23; 
 student.city = "Bangalore"; 
 console.log(student);
