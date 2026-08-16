@@ -8,9 +8,11 @@
 ![Progress](https://img.shields.io/badge/Progress-4%2F30-2563EB?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Day_04_Completed-success?style=for-the-badge)
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=2800&pause=900&color=61DAFB&center=true&vCenter=true&width=850&lines=30-Day+React+Developer+Bootcamp;JavaScript+%E2%86%92+Async+JavaScript+%E2%86%92+React;Building+Skills+One+Day+at+a+Time+%F0%9F%9A%80" alt="Animated bootcamp introduction" />
+
 ### 🎯 From JavaScript Fundamentals to Advanced React Development
 
-Building real-world React applications through a structured 30-day learning journey with daily coding challenges, assessments, API integration, and projects.
+Building real-world React applications through a structured **30-day learning journey** with daily coding challenges, assessments, API integration, and projects.
 
 </div>
 
@@ -20,7 +22,7 @@ Building real-world React applications through a structured 30-day learning jour
 
 This repository documents my complete journey through a **30-Day React Developer Bootcamp**.
 
-The learning path progresses from JavaScript fundamentals to modern ES6+ syntax, asynchronous programming, React fundamentals, advanced React concepts, API integration, and real-world application development.
+The learning path progresses from **JavaScript fundamentals → modern ES6+ JavaScript → asynchronous programming → React fundamentals → advanced React → real-world React development**.
 
 ### Focus Areas
 
@@ -33,22 +35,23 @@ The learning path progresses from JavaScript fundamentals to modern ES6+ syntax,
 * ⏳ Advanced React Concepts
 * ⏳ Authentication & Routing
 * ⏳ Performance Optimization
-* ⏳ Real-World Project Development
+* ⏳ Real-World React Project Development
 
 ---
 
 ## 🎯 Learning Objectives
 
-By the end of this bootcamp, I aim to:
+By the end of this **30-day React bootcamp**, I aim to:
 
 * Master JavaScript ES6+ concepts
 * Build reusable React components
-* Manage state efficiently
+* Understand React state and component architecture
 * Work with APIs and asynchronous operations
 * Implement routing and authentication
 * Optimize React application performance
 * Develop production-ready React applications
 * Improve problem-solving and coding-assessment skills
+* Build and deploy real-world projects
 
 ---
 
@@ -73,11 +76,9 @@ react-30-day-bootcamp/
 └── final-project/
 ```
 
-This structure follows the recommended bootcamp repository organization.
-
 ---
 
-# 📅 30-Day Roadmap
+# 📅 30-Day React Bootcamp Roadmap
 
 ## 🟨 Week 1 — JavaScript Foundation
 
@@ -86,7 +87,7 @@ This structure follows the recommended bootcamp repository organization.
 | 01 | Modern JavaScript Basics | ✅ Completed |
 | 02 | Arrays & Objects | ✅ Completed |
 | 03 | ES6 Features | ✅ Completed |
-| **04** | **Async JavaScript** | **✅ Completed** |
+| **04** | **Async JavaScript & API Integration** | **✅ Completed** |
 | 05 | Problem Solving I | ⏳ Pending |
 | 06 | Problem Solving II | ⏳ Pending |
 | 07 | Week 1 Assessment | ⏳ Pending |
@@ -101,26 +102,27 @@ This structure follows the recommended bootcamp repository organization.
 
 ---
 
-## 📊 Overall Progress Tracker
+# 📊 Overall Bootcamp Progress
 
 ```text
 ████░░░░░░░░░░░░░░░░ 13%
 ```
 
-* **Days Completed:** 4 / 30
-* **Current Day:** Day 05
-* **Assessments Completed:** 0 / 4
-* **Final Project:** Not Started
-
-> Progress is based on completed learning days, with Day 04 now completed.
+| Metric | Progress |
+|---|---|
+| **Days Completed** | 4 / 30 |
+| **Current Day** | Day 05 |
+| **Assessments Completed** | 0 / 4 |
+| **Final Project** | Not Started |
+| **Bootcamp Status** | 🟢 In Progress |
 
 ---
 
-# 📝 Latest Updates
+# 📝 Latest Update
 
 ## ✅ Day 04 Completed — Async JavaScript & API Integration
 
-Day 04 focused on asynchronous JavaScript and the concepts required for working with APIs in modern web applications.
+Day 04 focused on asynchronous JavaScript and API communication.
 
 ### Concepts Learned
 
@@ -142,32 +144,31 @@ Day 04 focused on asynchronous JavaScript and the concepts required for working 
 * ✔ Loading, Success and Error states
 * ✔ Public API integration
 
-### User Directory Project
+### 🚀 User Directory Project
 
 Built a **User Directory** using a public API.
 
-### Verification Completed
+### Verification
 
 ```text
-API Request
-     ↓
-Loading State
-     ↓
-Fetch Users
-     ↓
-┌───────────────┐
-│ API Response  │
-└───────┬───────┘
-        │
-   ┌────┴─────┐
-   ↓          ↓
-SUCCESS     ERROR
-   ↓          ↓
-User List   Error State
-   │          │
-   └────┬─────┘
-        ↓
-  Loading = false
+                 API REQUEST
+                      │
+                      ▼
+               LOADING STATE
+                      │
+                      ▼
+                 FETCH USERS
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+          SUCCESS            ERROR
+             │                 │
+             ▼                 ▼
+         USER LIST         ERROR STATE
+             │                 │
+             └────────┬────────┘
+                      ▼
+              LOADING = FALSE
 ```
 
 ### Requirements Verified
@@ -177,14 +178,12 @@ User List   Error State
 * ✔ Error state is handled
 * ✔ `async/await` implemented
 * ✔ `try/catch` implemented
-* ✔ API response validated with `response.ok`
+* ✔ API response checked using `response.ok`
 * ✔ JSON response handled using `response.json()`
 
 ---
 
-## 📚 Day 04 Key Learning
-
-The main progression learned was:
+# 📚 Day 04 Learning Journey
 
 ```text
 Callbacks
@@ -208,7 +207,9 @@ Loading / Success / Error
 User Directory
 ```
 
-This creates the foundation for React applications that communicate with backend services and public APIs.
+### Key Takeaway
+
+Day 04 introduced the asynchronous programming concepts required to communicate with APIs and handle **loading, success, and error states**—important foundations for future React applications.
 
 ---
 
@@ -375,24 +376,22 @@ Each README documents:
 * Screenshots
 * GitHub Commit Reference
 
-This keeps the learning journey organized and makes every day's progress easy to review.
-
 ---
 
 # 🔥 Daily Commitment
 
 ```text
-╔══════════════════════════════════════╗
-║        MY DAILY COMMITMENT 🚀        ║
-╠══════════════════════════════════════╣
-║ ✔ Learn consistently                ║
-║ ✔ Code every day                    ║
-║ ✔ Push daily commits                ║
-║ ✔ Build practical projects          ║
-║ ✔ Improve problem solving           ║
-║ ✔ Understand concepts deeply        ║
-║ ✔ Prepare for real-world React work ║
-╚══════════════════════════════════════╝
+╔══════════════════════════════════════════╗
+║          MY DAILY COMMITMENT 🚀          ║
+╠══════════════════════════════════════════╣
+║ ✔ Learn consistently                    ║
+║ ✔ Code every day                        ║
+║ ✔ Push daily commits                    ║
+║ ✔ Build practical projects              ║
+║ ✔ Improve problem solving               ║
+║ ✔ Understand concepts deeply            ║
+║ ✔ Prepare for real-world React work     ║
+╚══════════════════════════════════════════╝
 ```
 
 ---
@@ -400,27 +399,27 @@ This keeps the learning journey organized and makes every day's progress easy to
 # 📈 Current Learning Journey
 
 ```text
-Day 01  ████████████████████  JavaScript Basics
+DAY 01  ████████████████████  JavaScript Basics
    ↓
-Day 02  ████████████████████  Arrays & Objects
+DAY 02  ████████████████████  Arrays & Objects
    ↓
-Day 03  ████████████████████  ES6+ Features
+DAY 03  ████████████████████  ES6+ Features
    ↓
-Day 04  ████████████████████  Async JavaScript
+DAY 04  ████████████████████  Async JavaScript
    ↓
-Day 05  ░░░░░░░░░░░░░░░░░░░░  Problem Solving I
+DAY 05  ░░░░░░░░░░░░░░░░░░░░  Problem Solving I
    ↓
-Day 06  ░░░░░░░░░░░░░░░░░░░░  Problem Solving II
+DAY 06  ░░░░░░░░░░░░░░░░░░░░  Problem Solving II
    ↓
-Day 07  ░░░░░░░░░░░░░░░░░░░░  Week 1 Assessment
+DAY 07  ░░░░░░░░░░░░░░░░░░░░  Week 1 Assessment
    ↓
-Week 2 → React Fundamentals ⚛️
+WEEK 2  →  React Fundamentals ⚛️
    ↓
-Week 3 → Advanced React
+WEEK 3  →  Advanced React
    ↓
-Week 4 → Real-World React + HackerRank
+WEEK 4  →  Real-World React + HackerRank
    ↓
-Day 30 → Final Assessment & Project
+DAY 30  →  Final Assessment & Project 🏆
 ```
 
 ---
@@ -429,7 +428,9 @@ Day 30 → Final Assessment & Project
 
 ## Day 05 — Problem Solving I
 
-The next bootcamp module focuses on solving JavaScript coding problems, including:
+The next stage of the bootcamp focuses on strengthening JavaScript problem-solving skills through coding challenges.
+
+Planned focus:
 
 * FizzBuzz
 * Palindrome
@@ -437,34 +438,46 @@ The next bootcamp module focuses on solving JavaScript coding problems, includin
 * Reverse String
 * Character Count
 * Duplicates
+* Approach explanation
+* Time complexity
+* Space complexity
+* Alternative solutions
 
-The verification requirement is to complete at least **6 solutions** with an approach, time complexity, and alternative solution.
+### 🎯 Next Milestone
+
+Complete **Week 1** and successfully finish the **Week 1 Assessment** before progressing toward React Fundamentals.
 
 ---
 
-# 🎯 Milestone: 4 Days Completed
+# 🏆 Milestone — 4 / 30 Days Completed
 
 ```text
-          🚀 JAVASCRIPT FOUNDATION
+        🚀 JAVASCRIPT FOUNDATION
 
-      DAY 01  →  DAY 02  →  DAY 03  →  DAY 04
-        ✅          ✅          ✅          ✅
-        │           │           │           │
-     Basics      Data       Modern       Async
-                 Handling      ES6        APIs
+DAY 01  ━━━━━━━━━━━━━━━━  ✅
+DAY 02  ━━━━━━━━━━━━━━━━  ✅
+DAY 03  ━━━━━━━━━━━━━━━━  ✅
+DAY 04  ━━━━━━━━━━━━━━━━  ✅
+DAY 05  ────────────────  ⏳
+DAY 06  ────────────────  ⏳
+DAY 07  ────────────────  ⏳
 ```
 
 ### Current Achievement
 
-**4 / 30 Days Completed — JavaScript Foundation in Progress 🎯**
+**4 / 30 Days Completed 🎯**
 
-The next milestone is completing **Week 1 and the Week 1 Assessment** before moving into React Fundamentals.
+> From JavaScript fundamentals to asynchronous API communication — the foundation for my React journey is taking shape.
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563EB,100:7C3AED&height=150&section=footer&text=Day%2004%20Completed%20%F0%9F%9A%80&fontSize=32&fontColor=FFFFFF&animation=twinkling" alt="Animated footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&center=true&vCenter=true&width=800&lines=Day+04+Completed+%E2%9C%85;JavaScript+Foundation+%F0%9F%9A%80;Next+Stop%3A+Problem+Solving+%F0%9F%92%AA;React+Journey+Loading...+%E2%9A%9B%EF%B8%8F" alt="Animated final progress" />
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:61DAFB,50:2563EB,100:7C3AED&height=170&section=footer&text=30-Day%20React%20Developer%20Bootcamp&fontSize=30&fontColor=FFFFFF&animation=twinkling&fontAlignY=70" alt="Animated React bootcamp footer" />
 
 ### ⭐ Follow the journey from JavaScript fundamentals to React development!
 
